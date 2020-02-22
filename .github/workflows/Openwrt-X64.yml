@@ -65,7 +65,7 @@ jobs:
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
     - name: Clone luci-theme-rosy
-      run: git clone https://github.com/rosywrt/luci-theme-rosy && mv luci-theme-rosy/* openwrt/lede/package
+      run: git clone https://github.com/rosywrt/luci-theme-rosy && mv luci-theme-rosy/* lede/package
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
