@@ -66,9 +66,6 @@ jobs:
       
     - name: Clone luci-theme-rosy
       run: cd openwrt/package && git clone https://github.com/rosywrt/luci-theme-rosy
-      
-    - name: Clone luci-app-smartdns
-      run: cd openwrt/package/lean && git clone https://github.com/pymumu/luci-app-smartdns
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
