@@ -64,8 +64,8 @@ jobs:
     - name: Clone luci-theme-rosy
       run: cd openwrt/package && git clone https://github.com/rosywrt/luci-theme-rosy
       
-    - name: Clone helloworld
-      run: cd openwrt/package/lean && git clone https://github.com/fw876/helloworld
+    #- name: Clone helloworld
+    #  run: cd openwrt/package/lean && git clone https://github.com/fw876/helloworld
 
     - name: Load custom feeds
       run: |
