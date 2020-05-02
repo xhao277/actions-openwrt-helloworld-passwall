@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lean's OpenWrt-PassWall
+name: Lean's OpenWrt-helloworld
 
 on:
   repository_dispatch:
