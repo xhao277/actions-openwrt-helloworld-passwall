@@ -67,10 +67,10 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
     
     - name: Clone smartdns
-      run: cd ./package && git clone https://github.com/pymumu/smartdns.git
+      run: cd openwrt/package && git clone https://github.com/pymumu/smartdns.git
       
     - name: Clone passwall  
-      run: cd ./package && git clone https://github.com/xiaorouji/openwrt-package.git
+      run: cd openwrt/package && git clone https://github.com/xiaorouji/openwrt-package.git
 
     - name: Load custom feeds
       run: |
