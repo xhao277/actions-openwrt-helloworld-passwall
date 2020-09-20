@@ -1,4 +1,4 @@
-# actions-openwrt-passwall
+# actions-openwrt-helloworld-passwall
 
 - **感谢** [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)和[Lienol/openwrt](https://github.com/Lienol/openwrt)
 - 通过修改流程文件，使用Lienol's openwrt `dev-19.07`（平稳版）在线编译passwall服务固件，
