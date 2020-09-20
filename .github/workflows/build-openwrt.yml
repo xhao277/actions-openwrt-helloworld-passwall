@@ -69,7 +69,7 @@ jobs:
     - name: Clone smartdns
       run: cd ./package && git clone https://github.com/pymumu/smartdns.git
       
-    - name: Clone smartdns  
+    - name: Clone passwall  
       run: cd ./package && git clone https://github.com/xiaorouji/openwrt-package.git
 
     - name: Load custom feeds
